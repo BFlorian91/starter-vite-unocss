@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App Starter</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1 id="welcome"></h1>
+			<div flex="~ items-center gap-2">
+				<p>Click on the Github logo to learn more</p>
+				<a 
+					flex="~ items-center justify-center" bg-gray rounded w-10 h-10 ml-4 hover:transform="rotate-30" transition="~" 
+					href="https://github.com" 
+					target="_blank"
+				>
+					<div style="padding: 0; margin: 0;" w-8 h-8 class="i-logos-github-icon"></div>
+				</a>
+			</div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
